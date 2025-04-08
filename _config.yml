@@ -1,0 +1,17 @@
+# Site settings
+title: Aaron Hanna
+description: >-
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+baseurl: ""
+url: "https://aaronhanna.github.io"
+
+# Build settings
+# theme: minima
+remote_theme: aaronhanna/jekyll-theme-minimal-resume
+plugins:
+  - jekyll-remote-theme
+
+exclude: ['package.json', 'src', 'node_modules', 'vendor']
